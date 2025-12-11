@@ -1,0 +1,137 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .content-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  .front-end-nav {
+    margin-left: auto;
+    margin-right: 0;
+}
+.sign-up-btn {
+    color: #007bff !important;
+    background-color: transparent !important;
+    background-image: none ;
+    border-color: #007bff !important;
+}
+.sign-up-btn:hover {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+.app-name {
+    font-weight: 400 !important;
+    color: black !important;
+}
+
+/* faq*/
+.question-container {
+  display: grid;
+  background-color: #0c465d;
+  max-width: 100%;
+  min-height: 52px;
+  align-items: center;
+}
+.question {
+  color:white !important;
+}
+
+.otp-card {
+  width: 50%;
+  margin-left: 26%;
+  border: 1px solid lightgrey;
+}
+
+.otp-card2 {
+  width: 55%;
+  margin-left: 23%;
+  border: 1px solid lightgrey;
+}
+
+.otp-field {
+  flex-direction: row;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .otp-field input {
+  height: 45px;
+  width: 45px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  }
+  .otp-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .otp-field input::-webkit-inner-spin-button,
+  .otp-field input::-webkit-outer-spin-button {
+  display: none;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-google {
+  background: #f5323b;
+  color: white;
+}
+/* start payment history scroller css */
+.paymentHistory {
+  max-height: 350px;
+  overflow-y: scroll;
+  padding-right: 5px;
+  
+}
+.paymentHistory_icon
+{
+  padding-right: 10px;
+}
+.commonBox_body {
+  background: #fbfbfb;
+}
+/* end payment history scroller css */

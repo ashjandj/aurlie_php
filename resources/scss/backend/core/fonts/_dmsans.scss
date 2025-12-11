@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/backend/DMSans-Bold.eot');
+    src: local('DM Sans Bold'), local('DMSans-Bold'),
+        url('../../fonts/backend/DMSans-Bold.eot#iefix') format('embedded-opentype'),
+        url('../../fonts/backend/DMSans-Bold.woff2') format('woff2'),
+        url('../../fonts/backend/DMSans-Bold.woff') format('woff'),
+        url('../../fonts/backend/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/backend/DMSans-Medium.eot');
+    src: local('DM Sans Medium'), local('DMSans-Medium'),
+        url('../../fonts/backend/DMSans-Medium.eot#iefix') format('embedded-opentype'),
+        url('../../fonts/backend/DMSans-Medium.woff2') format('woff2'),
+        url('../../fonts/backend/DMSans-Medium.woff') format('woff'),
+        url('../../fonts/backend/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/backend/DMSans-Regular.eot');
+    src: local('DM Sans Regular'), local('DMSans-Regular'),
+        url('../../fonts/backend/DMSans-Regular.eot#iefix') format('embedded-opentype'),
+        url('../../fonts/backend/DMSans-Regular.woff2') format('woff2'),
+        url('../../fonts/backend/DMSans-Regular.woff') format('woff'),
+        url('../../fonts/backend/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
